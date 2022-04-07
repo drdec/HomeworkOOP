@@ -6,13 +6,10 @@ namespace Homework
     {
         public static void Main()
         {
-            RationalNumbers one = new RationalNumbers(4, 1);
-            RationalNumbers two = new RationalNumbers(1, 7);
+            RationalNumbers one = new RationalNumbers(3, 5);
+            RationalNumbers two = new RationalNumbers(6, 10);
 
-            two++;
-
-            Console.WriteLine(one);
-
+            Console.WriteLine(one.Equals(two));
         }
     }
 }
