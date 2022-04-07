@@ -4,14 +4,12 @@ namespace Homework
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            RationalNumbers one = new RationalNumbers(4, 5);
-            RationalNumbers two = new RationalNumbers(1, 7);
+            ComplexNumber numberOne = new ComplexNumber(13, 1);
+            ComplexNumber numberTwo = new ComplexNumber(13, 1);
 
-            one += two;
-
-            one.Show();
+            Console.WriteLine(numberOne == numberTwo);
         }
     }
 }
